@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px; /* centralizado em cima */
+}
+
+main {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* espaço entre campos */
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #2ecc71; /* verde ao focar */
+}
+
+form button {
+  background: #2ecc71; /* verde */
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #27ae60;
+}
+
+#listaClientes li {
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#listaClientes button {
+  background: #e74c3c;
+  border: none;
+  padding: 5px 8px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#listaClientes button:hover {
+  background: #c0392b;
+}
