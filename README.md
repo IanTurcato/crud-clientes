@@ -35,3 +35,19 @@ utils.js → Funções auxiliares (fetch, validação, exclusão)
 - CRUD CRUD (API temporária para armazenamento de dados)
 
 ---
+
+Sobre o Autor
+
+👤 Ian Turcato
+
+Estudante de Desenvolvimento Web focado em Front-end e UX. Sempre buscando criar experiências web atrativas, responsivas e interativas.
+
+Se você curtiu o projeto, não esqueça de deixar uma ⭐ no repositório!
+
+Contato
+
+Instagram: @ian_turcato
+
+LinkedIn: Ian Turcato
+
+© 2025 Ian Turcato. Todos os direitos reservados.
