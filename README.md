@@ -1,30 +1,37 @@
-# 📋 CRUD de Clientes
+# Cadastro de Clientes
 
-Este projeto é uma aplicação web simples para **cadastrar, listar e excluir clientes** utilizando a [CrudCrud API](https://crudcrud.com/).  
-Foi desenvolvido para praticar o consumo de APIs com a **Fetch API** em JavaScript.
-
----
-
-## 🚀 Funcionalidades
-
-- ✅ **Cadastrar Cliente**: o usuário insere nome e e-mail e salva na API.  
-- ✅ **Listar Clientes**: todos os clientes cadastrados aparecem na tela.  
-- ✅ **Excluir Cliente**: cada cliente possui um botão de exclusão que remove o registro da API e da interface.  
+## Descrição do Projeto
+Aplicação web para cadastro de clientes utilizando **JavaScript moderno**, **POO**, **modularização com ES Modules** e **programação funcional**.  
+Permite cadastrar, listar e excluir clientes de forma dinâmica, consumindo a API do [CRUD CRUD](https://crudcrud.com/).
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (Fetch API)**  
-- **CrudCrud (API REST gratuita para testes)**  
+## Funcionalidades
+- Cadastrar clientes com nome e e-mail.
+- Listar clientes cadastrados.
+- Excluir clientes.
+- Atualização automática da lista e do total de clientes sem recarregar a página.
+- Validação de entradas (nome obrigatório e e-mail válido).
+- Contagem total de clientes utilizando `reduce`.
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
-crud-clientes/
-│── index.html # Interface da aplicação
-│── styles.css # Estilos básicos
-│── scripts.js # Lógica de integração com a API
+/index.html → Interface da aplicação
+/js/
+classes.js → Definição da classe Cliente
+utils.js → Funções auxiliares (fetch, validação, exclusão)
+/app.js → Código principal, manipulação do DOM
+/styles.css → Estilos da aplicação
+
+
+---
+
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript ES6+ (Modules, async/await, fetch, map, reduce, find)
+- CRUD CRUD (API temporária para armazenamento de dados)
+
+---
